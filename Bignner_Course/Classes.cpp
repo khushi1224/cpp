@@ -30,5 +30,6 @@ int main(){
     first.e=5;
     first.f=6;
     first.setdata(1,2,3);
+    first.getdata();
     return 0;
 }
