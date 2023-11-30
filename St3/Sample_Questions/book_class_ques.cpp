@@ -14,13 +14,13 @@ public:
         author = a;
         year = y;
     }
-//    ~Book(){
-//
-//        cout<<"Destruction of Book: "<<title;
-//    }
+    ~Book(){
+
+        cout<<"Destruction of Book: "<<title;
+    }
     int display(){
         cout<<"Book Created :"<<title << endl <<"Book Author: "<< author << endl;
-        cout<<"Destruction of Book: "<<title;
+//        cout<<"Destruction of Book: "<<title;
         return 0;
     }
 
