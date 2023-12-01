@@ -14,6 +14,10 @@ public:
         sec = s;
     }
     Time  operator+(Time t2){
+//        11:59:59 12:59:59
+//59+59 =118/60 = 1 min 58 sec
+// 59+59 =118/60 = 1 hr 58 min + (118/60) = 1hr 59 min =118
+// 11+12 = 23 + 1 = 24hrs
         int NewS = sec + t2.sec;
         int NewM = (min + t2.min) + (NewS / 60);
         int NewH = (hr + t2.hr) + (NewM / 60);

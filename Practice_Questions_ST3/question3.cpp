@@ -15,7 +15,7 @@ class Person{
 public:
     Person(int a , string n){
         age = a;
-        n = name;
+        name = n;
     }
     Person( string n){
         name = n;
@@ -26,6 +26,7 @@ public:
     }
 };
 int main(){
-    P
+    Person p1(12,"kh");
+    p1.display();
     return 0;
 }
