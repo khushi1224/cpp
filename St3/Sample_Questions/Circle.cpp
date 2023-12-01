@@ -22,10 +22,10 @@ int main(){
     Circle c1(r);
     Circle c2(r2);
     if(c1==c2){
-        cout<<"yes";
+        cout<<"Equal";
     }
     else{
-        cout<<"No";
+        cout<<"Not Equal";
     }
 
     return 0;
