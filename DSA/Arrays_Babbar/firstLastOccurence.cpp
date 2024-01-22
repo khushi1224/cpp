@@ -4,7 +4,7 @@ int firstOcc(int arr[],int n , int k){
     int s=0;
     int e=n-1;
     int m = s+(e-s)/2;
-    int ans=-1;
+    int ans=-1; 
     while(s<=e){
         if(arr[m]==k){
             ans = m;
